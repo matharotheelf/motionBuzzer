@@ -67,7 +67,7 @@ void loop()
     }
   }
 
-  // Register new mmotion detection
+  // Register new motion detection
   if (motionDetectorValuePrevious == LOW && motionDetectorValueCurrent == HIGH) {   // pin state change: LOW -> HIGH
     // set initial start time for counter
       if(motionStartTime == 0) {
